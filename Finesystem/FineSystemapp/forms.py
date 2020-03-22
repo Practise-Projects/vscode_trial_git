@@ -1,7 +1,16 @@
 from django import forms
-from FineSystemapp.models import Fine_apply
+from FineSystemapp.models import Apply_Fine
+from FineSystemapp.models import RULEs
 
-class NewFineApply(forms.ModelForm):
+
+class New_3FineApply(forms.ModelForm):
     class Meta():
-        model = Fine_apply
+        model = Apply_Fine
         fields = '__all__'
+
+
+class New_1Rules_Add(forms.ModelForm):
+    class Meta():
+        model = RULEs
+        fields = '__all__'
+

@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.Home ,name='Home'),
     path('Fine/', views.Fine_Apply, name='Fine_Apply'),
+    path('Rule/',views.My_rules,name='My_rules'),
+    path('Add_Rules/',views.Add_Rules ,name='Add_Rules'),
 ]
