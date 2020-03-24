@@ -9,6 +9,10 @@ def Home(request):
 
 def My_rules(request):
     return render(request, 'FineSystemapp/My_Rules.html')
+def FU(request):
+    return render(request,'FineSystemapp/Fine_Utilization.html')
+def About(request):
+    return render(request,'FineSystemapp/About_Us.html')
 def Fine_Apply(request):
     form = New_3FineApply()
     if request.method == 'POST':
