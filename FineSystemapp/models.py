@@ -1,6 +1,5 @@
 from django.db import models
-
-
+#from datetime import datetime
 # Create your models here.
 
 class login(models.Model):
@@ -28,8 +27,6 @@ class Apply_Fine(models.Model):
     reason = models.CharField(max_length=500, unique=False, default=None)
 
     def __str__(self):
-        b = str(self.Fine_Amount)
-        c=str( self.Date)
-        a= self.reason
-        return a + '   -   ' + b +'   -   '+ c
+        return  str(self.Username)
+
 

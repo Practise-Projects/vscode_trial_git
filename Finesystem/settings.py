@@ -122,3 +122,11 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS=[
     STATIC_DIR,
 ]
+
+EMAIL_USE_TLS=True
+EMAIL_USE_SSL=False
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_HOST_USER='snehgour80@gmail.com'
+EMAIL_HOST_PASSWORD='Albertnewton80@'
+EMAIL_PORT=587
+
