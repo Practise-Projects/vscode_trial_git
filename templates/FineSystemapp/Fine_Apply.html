@@ -49,21 +49,16 @@
           </ul>
       </nav>
   
-
-
-<center>
-    <div class="container">
-         <div class="alert alert-success" role="alert">
-                <h1>Fine_Apply !!@!!</h1>
-                <form method="Post">
-                    {{ form.as_p}}
-                    {% csrf_token %}
-                    <input type="submit" class="btn btn-success" value="Submit">
-                </form>
-         </div>
-    </div>
-</center>
-
+      <div class="container text-justified">
+        <div class="alert alert-success " role="alert">
+               <h1>Fine_Apply</h1>
+               <form method="Post">
+                   {{ form.as_p}}
+                   {% csrf_token %}
+                   <input type="submit" class="btn btn-success" value="Submit">
+               </form>
+        </div>
+   </div>
 
 </body>
 </html>
