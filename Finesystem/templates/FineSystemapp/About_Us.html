@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>About_Us</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+ crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+ integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+ integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+ integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<style>
+
+  ul{
+  background-color: rgb(210, 252, 210);
+
+  }
+  a{
+  color:teal;
+  }
+  nav{
+  background-color:green;
+  }
+  footer{
+  background-color:rgb(210, 252, 210);
+  }
+</style>
+
+</head>
+<body style="background-color: rgb(210, 252, 210);">
+
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img
+          src="{%static 'images/logo.jpg'%}" width="40" height="40"
+           class="d-inline-block align-top"/>
+        Fine System</a>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="http://127.0.0.1:8000">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:8000/Rule/">My Rules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:8000/Fine/">FA</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:8000/FU/">FU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:8000/About/">About US</a>
+          </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>About US!</strong> You should check about developer given  below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <h1 style="color: green;">About US</h1>
+    <ul>
+
+        <div class="alert alert-success" role="alert">
+            <a href="#" class="alert-link"><li><h1>Sneh Gour</h1></li></a>
+            <img src="{%static 'images/snehGG.jpg' %}">
+            <p>Hello User i am <i><B>Sneh Gour </B></i></p>
+            <p>I am student of B.Tech.</p>
+            <p>I am Django Developer.</p>
+            <p>I  like to learn new technologies and i know as i am CSE studednt.</p>
+            <p>I am Like reading books as i have learned lots of things to lots of books.</p>
+                <p>I have much better human understanding </p>
+            <p>I Am trainer in TechSim+</p>
+                <p> You Can visit my Linkdin.in profile for more information.</p>
+        </div>
+        <div class="alert alert-success" role="alert">
+            <a href="#" class="alert-link"><li><h1>Jahanvi Dubey</h1></li></a>
+            <img src="{%static 'images/JahanviGG1.jpg' %}">
+
+            <p>Hello  User,   <i><B>Jahanvi Dubey</B></i> </p>
+                <p>I am Student of B.tech.</p>
+            <p>I am Django Developer.</p>
+            <p>I like to learn new things in my life and improve my self . </p>
+            <p>For more information about me You can visit my Linkdin.in Profile</p>
+        </div>
+
+            <div class="alert alert-success" role="alert">
+                  <h4 class="alert-heading">Thanking You!</h4>
+                  <p>for visiting our site for more information please mail us on linkdin.in or our gmail.</p>
+                  <hr>
+                  <p class="mb-0">snehgour80@gmail.com & dubeybulbul111@gmail.com </p>
+                <P class="mb-0">Copyright 2020 </P>
+            </div>
+
+    </ul>
+    </div>
+</body>
+</html>
+
